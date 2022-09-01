@@ -49,30 +49,23 @@
 
 <br />
 
-# 🔑 핵심기능
+# 🔑 구현 내용
 
-### 1. 회원가입 / 로그인 기능
+### 1. Serializer를 통한 회원가입 / 로그인 기능 구현
 
-> 사용자가 사이트에서 회원가입을 하여 DB에 저장하고  
-> DB에 해당 사용자 정보가 있으면 로그인이 가능하도록 합니다.  
-> [코드 보러가기](https://github.com/nbcamp-AI-2-fantastic4/mylittleshoes_backend/blob/c13591158515c0ece14190d953593131e7b4a071/user/views.py#L12)
+> Sirailizer의 cumstom validate, create, update 사용  
+> [코드보러가기](https://github.com/kimphysicsman/mylittleshoes_backend/blob/1f7ca0fd899f14b9aedada4f46f716d207480da0/user/serializers.py#L9)
 
-### 2. 이미지 업로드 + 결과 이미지 생성
 
-> 사용자가 이미지를 업로드하여 새로운 결과 이미지를 생성하고  
-> 저장하기 버튼을 누르면 DB에 이미지들이 저장됩니다.  
-> [코드 보러가기](https://github.com/nbcamp-AI-2-fantastic4/mylittleshoes_backend/blob/c13591158515c0ece14190d953593131e7b4a071/upload/views.py#L36)
+<br />
 
-### 3. 추천 스타일 페이지
+### 2. Generative model 이용한 새로운 신발 스타일링 기능 구현
 
-> 다양한 스타일을 추천해주는 페이지를 보여줍니다.  
-> [코드 보러가기](https://github.com/nbcamp-AI-2-fantastic4/mylittleshoes_backend/blob/c13591158515c0ece14190d953593131e7b4a071/recommend/views.py#L12)
+> 이미지 두장 받아서 새로운 스타일의 이미지 만들어서 반환  
+> [코드보러가기](https://github.com/kimphysicsman/mylittleshoes_backend/blob/master/upload/views.py#L35)
 
-### 4. 게시판 페이지 (히스토리 + 좋아요 + 댓글 기능)
 
-> 저장된 이미지들을 불러와서 하나의 게시글을 생성하고  
-> 해당 게시글에서 댓글 및 좋아요를 남길 수 있도록 합니다.  
-> [코드 보러가기](https://github.com/nbcamp-AI-2-fantastic4/mylittleshoes_backend/blob/c13591158515c0ece14190d953593131e7b4a071/history/views.py#L16)
+
 
 <br />
 
